@@ -1,0 +1,112 @@
+﻿body {
+    font-family: "Segoe UI", Calibri, Candara, Segoe, Helvetica, Optima, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 2em;
+}
+h1 {
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+}
+ul, ol {
+display: inline-block;
+	list-style-position: inside;
+	margin: 0em 0em 0.35em 0em;
+	padding: 0em;
+vertical-align: top;
+width: 45%;
+}
+li {
+    list-style-type: none;
+	margin-left: 0.5em;
+}
+li:first-child {
+    font-weight: 800;
+    margin-left: 0px;
+}
+li:last-child {
+	margin-bottom: 1.5em;
+}
+div.wedge {
+	display: inline-block;
+	height: 100%;
+	margin: 1em;
+	width: 1%;
+}
+div.col {
+	display: inline-block;
+width: 45%;
+}
+p.ux_note {
+    color: #aaaaaa;
+    font-size: 0.75em;
+}
+fieldset {
+    padding: 1em;
+}
+fieldset p {
+    margin: 0px;
+}
+fieldset#options {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+textarea {
+    height: 12em;
+    width: 45%;
+}
+p.status {
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+/* input#UploadSelectedFile style from http://www.bestcssbuttongenerator.com/ "twitter" preset */
+input#UploadSelectedFile {        
+        -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+        -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+        box-shadow: 0px 1px 0px 0px #f0f7fa;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+        background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+        background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+        background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+        background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+        background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+        
+        background-color:#33bdef;
+        
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        
+        border:1px solid #057fd0;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        
+        text-shadow:0px -1px 0px #5b6178;
+        
+    }
+input#UploadSelectedFile:hover {        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+        background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+        background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+        background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+        background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+        background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+        
+        background-color:#019ad2;
+    }
+input#UploadSelectedFile:active {
+        position:relative;
+        top:1px;
+    }
+
+div.ux_todo {
+    display: none;
+}
